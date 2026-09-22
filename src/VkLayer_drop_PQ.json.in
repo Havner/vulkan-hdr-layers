@@ -1,0 +1,20 @@
+{
+    "file_format_version" : "1.0.0",
+    "layer" : {
+      "name": "VK_LAYER_drop_PQ",
+      "type": "GLOBAL",
+      "api_version": "1.3.221",
+      "library_path": "@lib_dir@/libVkLayer_drop_PQ.so",
+      "implementation_version": "1",
+      "description": "Drops both 10-bit PQ surface formats (@family@)",
+      "functions": {
+         "vkNegotiateLoaderLayerInterfaceVersion": "vkNegotiateLoaderLayerInterfaceVersion"
+      },
+      "enable_environment": {
+        "ENABLE_DROP_PQ_WSI": "1"
+      },
+      "disable_environment": {
+        "DISABLE_DROP_PQ_WSI": "1"
+      }
+    }
+}
