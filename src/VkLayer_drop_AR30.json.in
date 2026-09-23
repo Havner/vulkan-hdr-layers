@@ -3,7 +3,7 @@
     "layer" : {
       "name": "VK_LAYER_drop_AR30",
       "type": "GLOBAL",
-      "api_version": "1.3.221",
+      "api_version": "1.4.335",
       "library_path": "@lib_dir@/libVkLayer_drop_AR30.so",
       "implementation_version": "1",
       "description": "Drops A2R10G10B10 surface format (@family@)",
